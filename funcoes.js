@@ -38,14 +38,8 @@ function removerElementosSeVazio (array) {
   return array.filter(elemento => elemento.trim())
 }
 
-function removerElementosSeIcluir (padrão) {
-  return function (array) {
-    return array.filter(elemento => !elemento.includes(padrão))
-  }
-}
-
 function removerElementosSeIncluirNumeros (array) {
-  return array.filter(elemento => isNaN(Number(elemento)))
+  return array.filter(elemento => isNaN(parseInt(elemento)))
 }
 
 function removerSimbolos (simbolos) {
