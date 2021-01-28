@@ -93,7 +93,6 @@ module.exports = {
   elementosTerminadoCom,
   lerArquivos,
   removerElementosSeVazio,
-  removerElementosSeIcluir,
   removerElementosSeIncluirNumeros,
   removerSimbolos,
   mesclarElementos,
